@@ -1,6 +1,6 @@
 ## About
 
-An interior design Website i made for a family member, I'm reasonably happy with it, it's just missing some more of the project photos for the portfolio section at this stage... Everything else is functional.
+An interior design Website i made for a family member, I'm reasonably happy with it, it's just missing some of the project photos for the portfolio section at this stage... Everything else is functional. One thing i would like a workaround for is the news page, i had a direct Instagram API key working a little while ago which does now not work, I've had to use a widget from an external site which lacks customization and is just not really the way i would prefer to do it.
 
 About 95% of this website was actually built before the ecommerce one i recently uploaded to Github, so i have learnt a thing or two since this project was started.
 
