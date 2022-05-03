@@ -11,3 +11,13 @@ HTML, CSS, Javascript, React, Material UI, React Router DOM, SweetAlert, EmailJS
 If you take the time to have a read through the code and have some constructive criticism feel free to send it my way!
 
 Some snaps of the Website, a link to the hosted site is in the description.
+
+
+
+![1](https://user-images.githubusercontent.com/73814371/166452957-798e0762-e3c0-4892-b9d9-ce764fd2751e.JPG)
+
+
+![2](https://user-images.githubusercontent.com/73814371/166452964-22634c35-9431-4b93-9d9b-c4ca63f99a7d.JPG)
+
+
+![3](https://user-images.githubusercontent.com/73814371/166452976-0b23d91c-3412-49cc-a7f5-af3bd69bd76c.JPG)
