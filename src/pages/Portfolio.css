@@ -1,0 +1,96 @@
+#portfolio__page {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.project__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  width: 100%;
+  border-bottom: 2px solid rgb(168, 127, 60, 0.18);
+  flex: 1;
+}
+
+.project__info {
+  position: relative;
+  left: 1.5%;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: rgb(168, 127, 60, 0.6);
+  max-width: 7.4%;
+  font-size: 1.3vw;
+}
+
+.project__center {
+  max-width: 50vw;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+}
+
+.project__center img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.project__bottom {
+  max-width: 100%;
+}
+
+.project__bottom img {
+  max-width: 12.5%;
+  object-fit: contain;
+  transition: 0.25s ease-in-out;
+}
+
+.project__bottom img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.bottom__alert {
+  color: rgb(168, 127, 60, 0.6);
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 100px;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .project__container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .project__center {
+    min-width: 85vw;
+  }
+
+  .project__info {
+    position: relative;
+    left: -25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: rgb(168, 127, 60, 0.6);
+    font-size: 2.5vw;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bottom__alert {
+    font-size: 3vw;
+  }
+}

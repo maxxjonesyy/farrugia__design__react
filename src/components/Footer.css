@@ -1,0 +1,143 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100vw;
+}
+
+.footer__info__right h3 {
+  position: relative;
+  top: -15px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: gray;
+  max-width: 100%;
+}
+
+.footer__info__left {
+  padding: 40px;
+}
+
+.footer__info__right {
+  position: relative;
+  right: 10px;
+}
+
+.footer__info__left h3 {
+  position: relative;
+  top: -15px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: gray;
+  max-width: 100%;
+}
+
+.footer__info__right {
+  padding: 40px;
+}
+
+#footer__contact__form {
+  display: flex;
+  gap: 5px;
+}
+
+.contact__form__left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact__form__right {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.footer__contact__button,
+.footer__contact__email,
+.footer__contact__message,
+.footer__contact__name {
+  -webkit-appearance: none !important;
+  border-radius: none !important;
+}
+
+.footer__contact__name,
+.footer__contact__email {
+  height: 2rem;
+  background-color: black;
+  color: gray;
+  border: 1px solid gray;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.footer__contact__message {
+  height: 100%;
+  width: 20rem;
+  background-color: black;
+  color: gray;
+  border: 1px solid gray;
+  padding: 5px;
+  resize: none;
+  max-width: 100%;
+}
+
+.footer__contact__button {
+  height: 100%;
+  min-width: 15%;
+  background-color: black;
+  color: gray;
+  border: 1px solid gray;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.swal2-confirm {
+  background-color: black !important;
+  border-radius: 25px !important;
+  width: 150px !important;
+}
+
+.swal2-popup {
+  max-width: 80%;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 595px) {
+  .footer__info__right {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 596px) {
+  .footer__info__right {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__info__right {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1088px) {
+  #footer {
+    flex-flow: column nowrap;
+  }
+
+  .footer__info__left,
+  .footer__info__right {
+    padding: 1.5rem;
+  }
+
+  #footer__contact__form {
+    flex-flow: column nowrap;
+    padding-bottom: 1rem;
+    max-width: 75%;
+  }
+}

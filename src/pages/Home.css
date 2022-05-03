@@ -1,0 +1,7 @@
+#home__page {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
