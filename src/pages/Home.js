@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import HomeAwards from "../components/HomeAwards";
 import HomeSlideshow from "../components/HomeSlideshow";
 import Footer from "../components/Footer";
 import "./Home.css";
@@ -9,8 +8,12 @@ function Home() {
   return (
     <div id="home__page">
       <Header />
-      <HomeAwards />
-      <HomeSlideshow />
+      <div className="HomeSlideShow">
+        <HomeSlideshow />
+      </div>
+      <div className="skills-text">
+        <h3>residential design - commercial design - project management</h3>
+      </div>
       <Footer />
     </div>
   );
