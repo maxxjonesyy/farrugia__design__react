@@ -14,7 +14,8 @@ Some snaps of the Website, a link to the hosted site is in the description.
 
 
 
-![1](https://user-images.githubusercontent.com/73814371/166452957-798e0762-e3c0-4892-b9d9-ce764fd2751e.JPG)
+
+![1](https://user-images.githubusercontent.com/73814371/168520910-4d144f92-e91e-4d53-9281-41fd45e2d5cc.JPG)
 
 
 ![2](https://user-images.githubusercontent.com/73814371/166452964-22634c35-9431-4b93-9d9b-c4ca63f99a7d.JPG)
